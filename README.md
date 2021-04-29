@@ -6,9 +6,9 @@ Use moments to estimate parameters of a Johnson distribution.
 ```python
 from j_johnson_M import f_johnson_M
 
-coef, _type, err = f_johnson_M(mu, sd, skew, kurt)
+coef, j_type, err = f_johnson_M(mu, sd, skew, kurt)
 
-gamma, delta, xi, lamda = coef
+gamma, delta, xi, lam = coef
 ```
 
 ## References
